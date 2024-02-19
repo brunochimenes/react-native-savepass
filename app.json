@@ -3,7 +3,6 @@
     "name": "savepass",
     "slug": "savepass",
     "version": "1.0.0",
-    "jsEngine": "hermes",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -12,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#E5E5E5"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -24,8 +21,9 @@
         "backgroundColor": "#E5E5E5"
       }
     },
-    "plugins": [
-      "expo-font"
-    ]
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-font"]
   }
 }
