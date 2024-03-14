@@ -15,7 +15,7 @@ O projeto corresponde ao segundo desafio do segundo módulo do curso Ignite/Reac
 
 - [x] Cadastro de senha.
 - [x] Pesquisa pelo nome de serviço.
-- [x] Listagem de senhas.
+- [x] Listagem das senhas.
   - [x] Visualização da senha ou email.
 - [x] Exclusão de senha.
 
